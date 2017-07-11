@@ -37,6 +37,9 @@ use Symfony\Component\HttpFoundation\Response;
 class BlogController extends Controller
 {
     /**
+     *
+     *
+     *
      * @Route("/", defaults={"page": "1", "_format"="html"}, name="blog_index")
      * @Route("/rss.xml", defaults={"page": "1", "_format"="xml"}, name="blog_rss")
      * @Route("/page/{page}", defaults={"_format"="html"}, requirements={"page": "[1-9]\d*"}, name="blog_index_paginated")
